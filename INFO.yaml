@@ -79,6 +79,11 @@ committers:
       company: 'intel'
       id: 'ewmulta'
       timezone: 'America/Los_Angeles'
+    - name: 'Xin Miao'
+      email: 'Xin.Miao@fujitsu.com'
+      company: 'fujitsu'
+      id: 'xinmiao2013'
+      timezone: 'America/Dallas'
 tsc:
     # yamllint disable rule:line-length
     approval: 'https://wiki.onap.org/display/DW/TSC+2020-02-06'
