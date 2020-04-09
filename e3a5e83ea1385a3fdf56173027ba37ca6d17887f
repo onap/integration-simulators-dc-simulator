@@ -1,0 +1,8 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+2: Morgan Richomme <morgan.richomme@orange.com>
+Code-Review+2: Bartek Grzybowski <b.grzybowski@partner.samsung.com>
+Submitted-by: Bartek Grzybowski <b.grzybowski@partner.samsung.com>
+Submitted-at: Thu, 09 Apr 2020 09:15:27 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/integration/simulators/dc-simulator/+/105069
+Project: integration/simulators/dc-simulator
+Branch: refs/heads/master
