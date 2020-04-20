@@ -1,0 +1,1701 @@
+{
+  "network-id": "otn-topology",
+  "ietf-network-topology:link": [
+    {
+      "link-id": "OWBSPDRNE13-XPDR1#XPDR1-NETWORK2##OWBSPDRNE14-XPDR1#XPDR1-NETWORK2",
+      "org-openroadm-network-topology:administrative-state": "outOfService",
+      "org-openroadm-otn-network-topology:link-type": "OTN-LINK",
+      "destination": {
+        "dest-node": "OWBSPDRNE14-XPDR1",
+        "dest-tp": "XPDR1-NETWORK2"
+      },
+      "source": {
+        "source-node": "OWBSPDRNE13-XPDR1",
+        "source-tp": "XPDR1-NETWORK2"
+      }
+    },
+    {
+      "link-id": "OWBSPDRNE16-XPDR1#XPDR1-NETWORK2##OWBSPDRNE15-XPDR1#XPDR1-NETWORK2",
+      "org-openroadm-network-topology:administrative-state": "outOfService",
+      "org-openroadm-otn-network-topology:link-type": "OTN-LINK",
+      "destination": {
+        "dest-node": "OWBSPDRNE15-XPDR1",
+        "dest-tp": "XPDR1-NETWORK2"
+      },
+      "source": {
+        "source-node": "OWBSPDRNE16-XPDR1",
+        "source-tp": "XPDR1-NETWORK2"
+      }
+    },
+    {
+      "link-id": "OWBSPDRNE12-XPDR1#XPDR1-NETWORK2##OWBSPDRNE11-XPDR1#XPDR1-NETWORK2",
+      "org-openroadm-network-topology:administrative-state": "outOfService",
+      "org-openroadm-otn-network-topology:link-type": "OTN-LINK",
+      "destination": {
+        "dest-node": "OWBSPDRNE11-XPDR1",
+        "dest-tp": "XPDR1-NETWORK2"
+      },
+      "source": {
+        "source-node": "OWBSPDRNE12-XPDR1",
+        "source-tp": "XPDR1-NETWORK2"
+      }
+    },
+    {
+      "link-id": "OWBSPDRNE15-XPDR1#XPDR1-NETWORK2##OWBSPDRNE16-XPDR1#XPDR1-NETWORK2",
+      "org-openroadm-network-topology:administrative-state": "outOfService",
+      "org-openroadm-otn-network-topology:link-type": "OTN-LINK",
+      "destination": {
+        "dest-node": "OWBSPDRNE16-XPDR1",
+        "dest-tp": "XPDR1-NETWORK2"
+      },
+      "source": {
+        "source-node": "OWBSPDRNE15-XPDR1",
+        "source-tp": "XPDR1-NETWORK2"
+      }
+    },
+    {
+      "link-id": "OWBSPDRNE11-XPDR1#XPDR1-NETWORK2##OWBSPDRNE12-XPDR1#XPDR1-NETWORK2",
+      "org-openroadm-network-topology:administrative-state": "outOfService",
+      "org-openroadm-otn-network-topology:link-type": "OTN-LINK",
+      "destination": {
+        "dest-node": "OWBSPDRNE12-XPDR1",
+        "dest-tp": "XPDR1-NETWORK2"
+      },
+      "source": {
+        "source-node": "OWBSPDRNE11-XPDR1",
+        "source-tp": "XPDR1-NETWORK2"
+      }
+    },
+    {
+      "link-id": "OWBSPDRNE14-XPDR1#XPDR1-NETWORK2##OWBSPDRNE13-XPDR1#XPDR1-NETWORK2",
+      "org-openroadm-network-topology:administrative-state": "outOfService",
+      "org-openroadm-otn-network-topology:link-type": "OTN-LINK",
+      "destination": {
+        "dest-node": "OWBSPDRNE13-XPDR1",
+        "dest-tp": "XPDR1-NETWORK2"
+      },
+      "source": {
+        "source-node": "OWBSPDRNE14-XPDR1",
+        "source-tp": "XPDR1-NETWORK2"
+      }
+    }
+  ],
+  "supporting-network": [
+    {
+      "network-ref": "openroadm-topology"
+    }
+  ],
+  "network-types": {
+    "org-openroadm-otn-network-topology:otn-topology": {}
+  },
+  "node": [
+    {
+      "supporting-node": [
+        {
+          "network-ref": "openroadm-topology",
+          "node-ref": "OWBSPDRNE11-XPDR1"
+        }
+      ],
+      "node-id": "OWBSPDRNE11-XPDR1",
+      "ietf-network-topology:termination-point": [
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT8",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT8",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT7",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT7",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK2",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK1",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT20",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT20",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT21",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT21",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT22",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT22",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT23",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT23",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT24",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT24",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT25",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT25",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT26",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT26",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT27",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT27",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT6",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT6",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT5",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT5",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT17",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT17",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT4",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT4",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT18",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT18",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT3",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT3",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT19",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT19",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT2",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT1",
+              "node-ref": "OWBSPDRNE11-XPDR1"
+            }
+          ]
+        }
+      ],
+      "org-openroadm-network:node-status": "PLANNED",
+      "org-openroadm-otn-network-topology:node-type": "SWITCH",
+      "org-openroadm-otn-network-topology:xpdr-attributes": {
+        "xpdr-number": 1
+      }
+    },
+    {
+      "supporting-node": [
+        {
+          "network-ref": "openroadm-topology",
+          "node-ref": "OWBSPDRNE16-XPDR1"
+        }
+      ],
+      "node-id": "OWBSPDRNE16-XPDR1",
+      "ietf-network-topology:termination-point": [
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT8",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT8",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT7",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT7",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK2",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK1",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT20",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT20",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT21",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT21",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT22",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT22",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT23",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT23",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT24",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT24",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT25",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT25",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT26",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT26",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT27",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT27",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT6",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT6",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT5",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT5",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT17",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT17",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT4",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT4",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT18",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT18",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT3",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT3",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT19",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT19",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT2",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT1",
+              "node-ref": "OWBSPDRNE16-XPDR1"
+            }
+          ]
+        }
+      ],
+      "org-openroadm-network:node-status": "PLANNED",
+      "org-openroadm-otn-network-topology:node-type": "SWITCH",
+      "org-openroadm-otn-network-topology:xpdr-attributes": {
+        "xpdr-number": 1
+      }
+    },
+    {
+      "supporting-node": [
+        {
+          "network-ref": "openroadm-topology",
+          "node-ref": "OWBSPDRNE13-XPDR1"
+        }
+      ],
+      "node-id": "OWBSPDRNE13-XPDR1",
+      "ietf-network-topology:termination-point": [
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT8",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT8",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT7",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT7",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK2",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK1",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT20",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT20",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT21",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT21",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT22",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT22",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT23",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT23",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT24",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT24",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT25",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT25",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT26",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT26",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT27",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT27",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT6",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT6",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT5",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT5",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT17",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT17",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT4",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT4",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT18",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT18",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT3",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT3",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT19",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT19",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT2",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT1",
+              "node-ref": "OWBSPDRNE13-XPDR1"
+            }
+          ]
+        }
+      ],
+      "org-openroadm-network:node-status": "PLANNED",
+      "org-openroadm-otn-network-topology:node-type": "SWITCH",
+      "org-openroadm-otn-network-topology:xpdr-attributes": {
+        "xpdr-number": 1
+      }
+    },
+    {
+      "supporting-node": [
+        {
+          "network-ref": "openroadm-topology",
+          "node-ref": "OWBSPDRNE14-XPDR1"
+        }
+      ],
+      "node-id": "OWBSPDRNE14-XPDR1",
+      "ietf-network-topology:termination-point": [
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT8",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT8",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT7",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT7",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK2",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK1",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT20",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT20",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT21",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT21",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT22",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT22",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT23",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT23",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT24",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT24",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT25",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT25",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT26",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT26",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT27",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT27",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT6",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT6",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT5",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT5",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT17",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT17",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT4",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT4",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT18",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT18",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT3",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT3",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT19",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT19",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT2",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT1",
+              "node-ref": "OWBSPDRNE14-XPDR1"
+            }
+          ]
+        }
+      ],
+      "org-openroadm-network:node-status": "PLANNED",
+      "org-openroadm-otn-network-topology:node-type": "SWITCH",
+      "org-openroadm-otn-network-topology:xpdr-attributes": {
+        "xpdr-number": 1
+      }
+    },
+    {
+      "supporting-node": [
+        {
+          "network-ref": "openroadm-topology",
+          "node-ref": "OWBSPDRNE15-XPDR1"
+        }
+      ],
+      "node-id": "OWBSPDRNE15-XPDR1",
+      "ietf-network-topology:termination-point": [
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT8",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT8",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT7",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT7",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK2",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK1",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT20",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT20",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT21",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT21",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT22",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT22",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT23",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT23",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT24",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT24",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT25",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT25",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT26",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT26",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT27",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT27",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT6",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT6",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT5",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT5",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT17",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT17",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT4",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT4",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT18",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT18",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT3",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT3",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT19",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT19",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT2",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT1",
+              "node-ref": "OWBSPDRNE15-XPDR1"
+            }
+          ]
+        }
+      ],
+      "org-openroadm-network:node-status": "PLANNED",
+      "org-openroadm-otn-network-topology:node-type": "SWITCH",
+      "org-openroadm-otn-network-topology:xpdr-attributes": {
+        "xpdr-number": 1
+      }
+    },
+    {
+      "supporting-node": [
+        {
+          "network-ref": "openroadm-topology",
+          "node-ref": "OWBSPDRNE12-XPDR1"
+        }
+      ],
+      "node-id": "OWBSPDRNE12-XPDR1",
+      "ietf-network-topology:termination-point": [
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT8",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT8",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT7",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT7",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK2",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-NETWORK",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-NETWORK1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-NETWORK1",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT20",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT20",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT21",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT21",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT22",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT22",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT23",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT23",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT24",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT24",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT25",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT25",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT26",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT26",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT27",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT27",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT6",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT6",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT5",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT5",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT17",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT17",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT4",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT4",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT18",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT18",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT3",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT3",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT19",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT19",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT2",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT2",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        },
+        {
+          "org-openroadm-otn-network-topology:tp-type": "XPONDER-CLIENT",
+          "org-openroadm-otn-network-topology:eqpt-srg-id": 1,
+          "tp-id": "XPDR1-CLIENT1",
+          "supporting-termination-point": [
+            {
+              "network-ref": "openroadm-topology",
+              "tp-ref": "XPDR1-CLIENT1",
+              "node-ref": "OWBSPDRNE12-XPDR1"
+            }
+          ]
+        }
+      ],
+      "org-openroadm-network:node-status": "PLANNED",
+      "org-openroadm-otn-network-topology:node-type": "SWITCH",
+      "org-openroadm-otn-network-topology:xpdr-attributes": {
+        "xpdr-number": 1
+      }
+    }
+  ]
+}
