@@ -1,0 +1,43 @@
+version: '2.1'
+
+
+services:
+  tapi1_app:
+    image: nexus3.onap.org:10003/onap/tapisimulator
+    container_name: tapi1_controller
+    ports:
+      - "8083:8080"
+    environment:
+      - Controller=TAPI1
+    logging:
+      driver:   "json-file"
+      options:
+        max-size: "30m"
+        max-file: "5"
+        
+        
+  tapi2_app:
+    image: nexus3.onap.org:10003/onap/tapisimulator
+    container_name: tapi2_controller
+    ports:
+      - "8085:8080"
+    environment:
+      - Controller=TAPI2
+    logging:
+      driver:   "json-file"
+      options:
+        max-size: "30m"
+        max-file: "5"
+        
+  msa_app:
+    image: nexus3.onap.org:10003/onap/msasimulator
+    container_name: msa_controller
+    ports:
+      - "8082:8082"
+    environment:
+      - Controller=MSA
+    logging:
+      driver:   "json-file"
+      options:
+        max-size: "30m"
+        max-file: "5"                
