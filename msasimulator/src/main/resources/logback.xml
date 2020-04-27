@@ -1,0 +1,28 @@
+<configuration>
+	<appender name="FILE-THREAD" class="ch.qos.logback.classic.sift.SiftingAppender">
+		<discriminator>
+			<key>logFileName</key>
+			<defaultValue>msasim</defaultValue>
+		</discriminator>
+
+		<sift>
+    		<appender name="file-${logFileName}" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    			<file>/var/log/onap/msasimulator/${logFileName}.log</file>
+    			<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+      				<fileNamePattern>${logFileName}.%i.log.zip</fileNamePattern>
+      				<minIndex>1</minIndex>
+      				<maxIndex>5</maxIndex>
+    			</rollingPolicy>
+    			<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      				<maxFileSize>5MB</maxFileSize>
+    			</triggeringPolicy>
+        		<encoder>
+            		<pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n</pattern>
+        		</encoder>
+    		</appender>
+    	</sift>
+	</appender>
+    <root level="debug">
+        <appender-ref ref="FILE-THREAD" />
+    </root>
+</configuration>

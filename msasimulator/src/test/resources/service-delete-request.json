@@ -1,0 +1,12 @@
+{
+   "sdnc-request-header":{
+      "request-id":"123456",
+      "rpc-action":"service-delete",
+      "notification-url":"http://167.254.204.118:8090/receiver/services",
+      "request-system-id":"SDN-MLC"
+   },
+   "service-delete-req-info":{
+      "tail-retention":"no",
+      "service-name":"new"
+   }
+}
