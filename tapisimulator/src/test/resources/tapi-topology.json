@@ -1,0 +1,135 @@
+{
+  "topology": [
+    {
+      "uuid": "754a91dc-dcd1-3530-8e95-a4880c298a1f",
+      "link": [],
+      "layer-protocol-name": [],
+      "node": [
+        {
+          "encap-topology": {
+            "topology-uuid": "754a91dc-dcd1-3530-8e95-a4880c298a1f"
+          },
+          "uuid": "Node1-123",
+          "node-edge-point": [
+            {
+              "tapi-connectivity:cep-list": {
+                "connection-end-point": [
+                  {
+                    "uuid": "abcde",
+                    "name": [
+                      {
+                        "value-name": "name",
+                        "value": "1-1-1"
+                      },
+                      {
+                        "value-name": "direction",
+                        "value": "BI"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "link-port-direction": "BIDIRECTIONAL",
+              "layer-protocol-name": "ODU",
+              "uuid": "123456",
+              "administrative-state": "UNLOCKED",
+              "lifecycle-state": "INSTALLED",
+              "name": [
+                {
+                  "value-name": "tid",
+                  "value": "Node1"
+                },
+                {
+                  "value-name": "name",
+                  "value": "1-1-1"
+                },
+                {
+                  "value-name": "rate",
+                  "value": "10GE"
+                },
+                {
+                  "value-name": "direction",
+                  "value": "BI"
+                }
+              ]
+            }
+          ],
+          "layer-protocol-name": [
+            "ODU"
+          ],
+          "name": [
+            {
+              "value-name": "name",
+              "value": "Node1"
+            }
+          ]
+        },
+        {
+          "encap-topology": {
+            "topology-uuid": "754a91dc-dcd1-3530-8e95-a4880c298a1f"
+          },
+          "uuid": "Node2-456",
+          "node-edge-point": [
+            {
+              "tapi-connectivity:cep-list": {
+                "connection-end-point": [
+                  {
+                    "uuid": "efghi",
+                    "name": [
+                      {
+                        "value-name": "name",
+                        "value": "1-1-1"
+                      },
+                      {
+                        "value-name": "direction",
+                        "value": "BI"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "link-port-direction": "BIDIRECTIONAL",
+              "layer-protocol-name": "ODU",
+              "uuid": "456789",
+              "administrative-state": "UNLOCKED",
+              "lifecycle-state": "INSTALLED",
+              "name": [
+                {
+                  "value-name": "tid",
+                  "value": "Node2"
+                },
+                {
+                  "value-name": "name",
+                  "value": "1-1-1"
+                },
+                {
+                  "value-name": "rate",
+                  "value": "10GE"
+                },
+                {
+                  "value-name": "direction",
+                  "value": "BI"
+                }
+              ]
+            }
+          ],
+          "layer-protocol-name": [
+            "ODU"
+          ],
+          "name": [
+            {
+              "value-name": "name",
+              "value": "Node2"
+            }
+          ]
+        }
+      ],
+      "name": [
+        {
+          "value-name": "name",
+          "value": "OTN"
+        }
+      ]
+    }
+  ]
+}
