@@ -1,0 +1,7 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+2: Xin Miao <xin.miao@us.fujitsu.com>
+Submitted-by: Xin Miao <xin.miao@us.fujitsu.com>
+Submitted-at: Tue, 28 Apr 2020 15:53:06 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/integration/simulators/dc-simulator/+/106654
+Project: integration/simulators/dc-simulator
+Branch: refs/heads/master
