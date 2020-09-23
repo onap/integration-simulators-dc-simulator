@@ -1,0 +1,7 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+2: Xin Miao <xin.miao@us.fujitsu.com>
+Submitted-by: Morgan Richomme <morgan.richomme@orange.com>
+Submitted-at: Wed, 23 Sep 2020 14:43:38 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/integration/simulators/dc-simulator/+/113030
+Project: integration/simulators/dc-simulator
+Branch: refs/heads/master
